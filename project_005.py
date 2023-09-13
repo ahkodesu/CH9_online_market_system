@@ -125,7 +125,6 @@ def generate_product_info(page_number: int, page_size=10) -> str:
 
         yield f"|{name:{chr(12288)}>8}|{price:>7}|{discount:>9}|{stock:>12}|{remark:{chr(12288)}>10}|"   
     yield "-"*100
-    pass
 
 # 【服務功能[1]-會員註冊】
 def register():
